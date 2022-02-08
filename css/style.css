@@ -1,6 +1,7 @@
 :root {
   --color-white: #ffffff;
   --bg-header: #114B5F;
+  --color-blue: #1C8AD9;
 }
 
 * {
@@ -26,16 +27,56 @@ body {
   width: 100%;
 }
 
-  .header #title {}
+  .header #title {
+    font-weight: 700;
+    padding-top: 1em;
+  }
 
-  #descriptio {}
+  #description {
+    padding-bottom: 1em ;
+  }
 
 /* figure */
-figure #img-div {}
+#img-div {
+  background-color: var(--bg-header);
+  margin-bottom: 1em;
+}
+
 figure #image {
   width: 100%;
   height: auto;
 }
 figure #img-caption {
   text-align: center;
+  font-weight: 700;
+}
+
+/* section */
+#tribute-info {
+  margin: 0 auto;
+  width: 50%;
+}
+
+section .list {}
+.list li {
+  list-style-type: none;
+  padding-bottom: 0.5em;
+
+}
+.list li a {
+}
+
+
+/* footer */
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: var(--bg-header);
+}
+.footer #tribute-link {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-decoration: none;
+  color: var(--color-blue);
+  font-weight: 700;
 }
