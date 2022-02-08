@@ -1,0 +1,41 @@
+:root {
+  --color-white: #ffffff;
+  --bg-header: #114B5F;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--color-white);
+}
+
+/* main */
+#main {
+  width: 100%;
+}
+
+/* header */
+.header {
+  background-color: var(--bg-header);
+  text-align: center;
+  width: 100%;
+}
+
+  .header #title {}
+
+  #descriptio {}
+
+/* figure */
+figure #img-div {}
+figure #image {
+  width: 100%;
+  height: auto;
+}
+figure #img-caption {
+  text-align: center;
+}
