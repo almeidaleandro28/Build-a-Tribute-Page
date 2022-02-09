@@ -2,7 +2,7 @@
 
 first project for the website [freecodecamp](https://www.freecodecamp.org)
 
-<h2>Build a Tribute Page/h2>
+<h2>Build a Tribute Page</h2>
 
   <h2>using:</h2>
  <ul>
