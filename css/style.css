@@ -40,14 +40,15 @@ body {
 #img-div {
   background-color: var(--bg-header);
   margin-bottom: 1em;
+  text-align: center;
 }
 
 figure #image {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
+  
 }
 figure #img-caption {
-  text-align: center;
+  
   font-weight: 700;
 }
 
