@@ -15,6 +15,13 @@ body {
   background-color: var(--color-white);
 }
 
+/* --- gloabal --- */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
 /* main */
 #main {
   width: 100%;
@@ -45,6 +52,7 @@ body {
 
 figure #image {
   max-width: 100%;
+  display: block;
   
 }
 figure #img-caption {
@@ -59,6 +67,7 @@ figure #img-caption {
 }
 
 section .list {}
+
 .list li {
   list-style-type: none;
   padding-bottom: 0.5em;
