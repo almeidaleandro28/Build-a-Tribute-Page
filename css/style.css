@@ -79,14 +79,15 @@ section .list {}
 
 /* footer */
 .footer {
-  width: 100%;
-  text-align: center;
   background-color: var(--bg-header);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  width: 100%;
+  
 }
 .footer #tribute-link {
-  padding-bottom: 1em;
-  padding-top: 1em;
-  text-decoration: none;
   color: var(--color-blue);
   font-weight: 700;
+  text-decoration: none;
 }
